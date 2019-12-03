@@ -23,4 +23,4 @@ Por último pulsando en un jugador podemos ver detalles de él como el precio de
 
 
 ### Vídeo explicativo
-Haz click [aquí](https://futprofit.com) para ver un vídeo explicativo
+Haz click [aquí](https://youtu.be/ms5C96Ro5bo) para ver un vídeo explicativo
