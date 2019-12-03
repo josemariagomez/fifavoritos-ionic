@@ -1,14 +1,14 @@
-<ion-header>
-  <ion-toolbar>
-    <ion-title>
-      Ionic Blank
-    </ion-title>
-  </ion-toolbar>
-</ion-header>
-
 <ion-content>
-  <div class="ion-padding">
-    The world is your oyster.
-    <p>If you get lost, the <a target="_blank" rel="noopener" href="https://ionicframework.com/docs/">docs</a> will be your guide.</p>
+  <div class="ion-padding page">
+    <div class="logo-container">
+      <img class="logo" src="assets/img/fifavoritos_logo_white.png" alt="logo">
+    </div>
+    <form (ngSubmit)="login()" class="login-form">
+      <ion-input placeholder="Email" type="text" [(ngModel)]="email" name="email"></ion-input>
+      <ion-input placeholder="Contraseña" type="password" [(ngModel)]="password" name="password"></ion-input>
+      <ion-button color="rosita" type="submit">
+        Entrar
+      </ion-button>
+    </form>
   </div>
 </ion-content>

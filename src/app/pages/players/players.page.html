@@ -1,0 +1,18 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-back-button defaultHref="tradeos"></ion-back-button>
+    </ion-buttons>
+    <ion-title>{{ tradeo }}</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-card *ngFor="let player of players" (click)="click(player.id)">
+    <p class="global">{{ player.global }} |</p> <p class="name"> {{ player.name }}</p>
+    <div class="details" *ngIf="clicked == player.id">
+      <p class="price"><span class="name">Tipo: </span> {{ player.card_type }}</p>
+      <p class="price"><span class="name">Precio: </span> {{ player.recomended_price }} monedas</p>
+    </div>
+  </ion-card>
+</ion-content>

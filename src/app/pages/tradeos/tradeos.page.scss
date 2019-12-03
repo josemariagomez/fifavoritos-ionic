@@ -1,0 +1,19 @@
+ion-header {
+    --ion-background-color: #e6475f;
+    ion-title {
+        color: white;
+    }
+}
+
+ion-content {
+    --ion-background-color: var(--ion-color-black);
+}
+
+ion-card {
+    background-color: white;
+    padding: 0.5em 1em;
+    color: #252524;
+    .name {
+        font-weight: bold;
+    }
+}

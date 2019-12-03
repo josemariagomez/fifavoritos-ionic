@@ -1,1 +1,39 @@
+ion-content {
+    --ion-background-color: var(--ion-color-black);
+}
+
+.page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+
+    .logo-container {
+        width: 100%;
+        padding: 1em;
+    
+        .logo {
+            width: 100%;
+        }
+    }
+    .login-form {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        padding: 2em;
+
+        ion-input {
+            background-color: white;
+            border-radius: 5px;
+            margin: 0.5em 0;
+        }
+
+        ion-button {
+            margin: 2em auto;
+            width: 60%;
+        }
+    }
+}
 

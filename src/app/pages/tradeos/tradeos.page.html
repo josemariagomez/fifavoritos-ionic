@@ -1,0 +1,15 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Tradeos</ion-title>
+    <ion-buttons (click)="logout()" slot="end">
+      <ion-icon slot="end" name="log-out"></ion-icon>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-card *ngFor="let tradeo of tradeos" (click)="goPlayers(tradeo)">
+    <p class="name">{{ tradeo.name }}</p>
+    <p class="buy">{{ tradeo.buy == 1 ? "COMPRAR" : "VENDER" }}</p>
+  </ion-card>
+</ion-content>

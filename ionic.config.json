@@ -1,5 +1,7 @@
 {
   "name": "futprofit",
-  "integrations": {},
+  "integrations": {
+    "cordova": {}
+  },
   "type": "angular"
 }
